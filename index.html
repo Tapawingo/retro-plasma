@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Retro Plasma Background - Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+        background: black;
+        color: #e0ffe0;
+        font-family: system-ui, sans-serif;
+      }
+
+      #plasma-canvas {
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+      }
+
+      .content {
+        position: relative;
+        z-index: 1;
+        padding: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="plasma-canvas"></canvas>
+    <div class="content">
+      <h1>Dithered Plasma Background</h1>
+      <p>Pure TypeScript, dithered, configurable.</p>
+    </div>
+    <script type="module" src="/src/demo.ts"></script>
+  </body>
+</html>
