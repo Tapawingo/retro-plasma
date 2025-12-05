@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: "https://tapawingo.github.io/retro-plasma/",
   build: {
     lib: {
       entry: "src/retroPlasma.ts",
