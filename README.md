@@ -29,14 +29,14 @@ For now, you can install directly from the repo or copy the `src/retroPlasma.ts`
 
 If/when published to npm, usage would look like:
 ```bash
-npm install dithered-plasma-background
+npm install retroPlasma
 ```
 
 ```ts
 import {
   createRetroPlasma,
   PlasmaConfig,
-} from "dithered-plasma-background";
+} from "retroPlasma";
 ```
 
 ## Quick start
