@@ -5,8 +5,8 @@
     "author": "Your Name",
     "license": "MIT",
     "type": "module",
-    "main": "dist/dithered-plasma-background.js",
-    "module": "dist/dithered-plasma-background.js",
+    "main": "dist/retroPlasma.js",
+    "module": "dist/retroPlasma.js",
     "files": [
       "dist"
     ],

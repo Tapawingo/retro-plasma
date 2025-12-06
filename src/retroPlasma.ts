@@ -1,4 +1,4 @@
-// dithered-plasma-background.ts
+// retroPlasma.ts
 
 export interface DitherConfig {
     /** Enable / disable ordered dithering */
@@ -195,11 +195,11 @@ export interface DitherConfig {
         this.handleResize();
         if (!this.imageData) return;
       }
-  
+
       const width = this.canvas.width;
       const height = this.canvas.height;
       const data = this.imageData.data;
-  
+
       const time = timestamp * 0.001 * this.config.speed;
   
       const baseHue = this.config.baseHue;
@@ -248,7 +248,7 @@ export interface DitherConfig {
           data[index++] = 255;
         }
       }
-  
+
       this.ctx.putImageData(this.imageData, 0, 0);
     }
   
