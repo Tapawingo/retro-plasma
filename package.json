@@ -13,6 +13,7 @@
     "scripts": {
       "dev": "vite",
       "build": "vite build",
+      "build:demo": "vite build --config vite.config.demo.ts",
       "preview": "vite preview",
       "typecheck": "tsc --noEmit"
     },

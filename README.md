@@ -12,6 +12,8 @@ A tiny, dependency-free **TypeScript** library for creating animated, **dithered
 
 ## Demo
 
+**[Live Demo →](https://tapawingo.github.io/retro-plasma/)**
+
 After cloning the repo:
 
 ```bash
