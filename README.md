@@ -1,5 +1,5 @@
-# RetroPlasma
-*Dithered Plasma Background*
+<img width="1920" height="436" alt="retroplasma" src="https://github.com/user-attachments/assets/d31132a4-6fc9-43be-a8f1-2171e6a0a797" />
+
 
 A tiny, dependency-free **TypeScript** library for creating animated, **dithered plasma backgrounds** in the browser.
 
@@ -7,8 +7,6 @@ A tiny, dependency-free **TypeScript** library for creating animated, **dithered
 - Configurable hue, brightness, blob size & dithering
 - Great as a background for hero sections, landing pages, and visual experiments
 - Ships as an ES module + UMD build
-
----
 
 ## Demo
 
